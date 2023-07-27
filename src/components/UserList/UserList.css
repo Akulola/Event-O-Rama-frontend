@@ -1,0 +1,32 @@
+UserList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  color: white;
+  background-color: black;
+}
+
+div a {
+  display: flex;
+  flex-direction: column; 
+  align-items:center;
+  margin: 75px;
+  color: #333;
+}
+
+div a  {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+div a p {
+  margin-top: 5px;
+}
